@@ -654,6 +654,8 @@ Moreover, there are several versioning schemes that are independent from any spe
 
 - **none**: a generic versioning scheme where no version is inside the range, i.e. no versions match. This is equivalent to ``false``.
 
+- **intdot**: a versioning scheme that allows version components to be specified as integers, separated by dots, e.g. ``10.234.5``
+
 
 A separate document will provide details for each versioning scheme and:
 
