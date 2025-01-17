@@ -654,6 +654,8 @@ Moreover, there are several versioning schemes that are independent from any spe
 
 - **none**: a generic versioning scheme where no version is inside the range, i.e. no versions match. This is equivalent to ``false``.
 
+- **datetime**: a versioning scheme that allows a timestamp-based versioning, as specified by RFC3339, for example 1996-12-19T16:39:57-08:00: https://www.rfc-editor.org/rfc/rfc3339#section-5.6.
+
 
 A separate document will provide details for each versioning scheme and:
 
