@@ -654,6 +654,8 @@ Moreover, there are several versioning schemes that are independent from any spe
 
 - **none**: a generic versioning scheme where no version is inside the range, i.e. no versions match. This is equivalent to ``false``.
 
+- **Repology**: Repology defines a custom, generic version string comparison algorithm: https://github.com/repology/libversion/blob/master/doc/ALGORITHM.md, which is also allowed in purl.
+
 
 A separate document will provide details for each versioning scheme and:
 
